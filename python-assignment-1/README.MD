@@ -1,8 +1,8 @@
----
-
 ## Module 1 – Q1
 
 **Palindrome Extraction Using File Handling**
+
+String slicing (`[::-1]`) is used to reverse each word for palindrome checking.
 
 String slicing (`[::-1]`) is used to reverse each word for palindrome checking. Slicing creates a new reversed string, which takes linear time proportional to the length of the word. Since slicing is applied only to words of length greater than or equal to five, unnecessary operations are avoided. Although slicing creates temporary strings, it is internally optimized and provides better readability and maintainability compared to manual character-by-character reversal. For typical text file sizes, this approach is efficient and practical.
 
